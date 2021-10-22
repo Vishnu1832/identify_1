@@ -1,0 +1,99 @@
+.heading
+{
+  font-size:25px;
+  width: 100%;
+  margin: 0px;
+  box-shadow:5px 5px 5px grey;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading_div
+{
+  background: dodgerblue ; 
+  border-radius: 20px; 
+  color: white;
+  box-shadow:5px 5px 5px grey;
+  float:none;
+
+}
+.heading_div2
+{
+  font-size: 18px ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.result_para_tag
+{
+  box-shadow:5px 5px 5px grey;
+  font-size: 20px;
+}
+
+.copy_right_footer
+{
+position: fixed;
+color:white;
+bottom:0;
+width:100%;
+background-color:black;
+line-height: 3;
+text-align:center;
+font-size:20px;
+font-family:'Times New Roman', Times, serif
+}
+
+canvas
+{
+border:5px solid white;
+border-radius: 20px;
+box-shadow:5px 5px 5px grey;
+margin-top: 140px;
+}
+
+#google
+{
+    width:50px;
+    height:50px;
+}
+
+#google_lens_h2
+{
+    float:left;
+}
+
+#object_g
+{
+    float:left;
+}
+
+#result_object_name_google
+{
+    float:left;
+}
+
+#accuracy_g
+{
+    float:left;
+}
+
+#mobile_net_h2
+{
+    float:right;
+}
+
+#object_m
+{
+    float:right;
+}
+
+#result_object_name_m
+{
+    float:right;
+}
+
+#accuracy_m
+{
+    float:right;
+}
+
+#result_object_accuracy_m
+{
+    float:right;
+}

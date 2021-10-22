@@ -1,0 +1,69 @@
+<html>
+<head>
+  <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background = "background_real.jpg">
+<center>
+  <h3 class="btn btn-primary heading">
+  <h2>Google lens <img id = "google" src = "google_lens.png"></h2>
+  <h2>VS</h2>
+  <h2>Mobilenet</h2>
+    <hr>
+    <center>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">  
+          <div class="btn headign_div2">
+          Mobilenet model is trained on <br>More than 1.3 million images are loaded
+          <br><br>
+          Google Lens is trained on<br> More than 2 million images
+          </div>
+        </div>
+    </center>
+    <br>
+  </h3>
+  <br><br>
+  <div class= "container">
+  <h2 id = "google_lens_h2">Google Lens  :  </h2>
+  <p id = "object_g" class="btn btn-danger">Object : 
+    <span id="result_object_name_google"></span> 
+  </p>
+  
+  <br><br>
+
+  <p id = "accuracy_g" class="btn btn-danger">Accuracy : 
+    <span id="result_object_accuracy_google"></span> 
+  </p>
+  </div>
+
+  <div class= "container">
+    <h2 id = "mobile_net_h2">Mobilenet :  </h2>
+    <p id = "object_m" class="btn btn-danger">Object : 
+      <span id="result_object_name_m"></span> 
+    </p>
+    
+    <br><br>
+  
+    <p id = "accuracy_m" class="btn btn-danger">Accuracy : 
+      <span id="result_object_accuracy_m"></span> 
+    </p>
+    </div>
+
+</center>
+
+<div class="copy_right_footer">
+Developed by - Vishnu Sundaram
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
